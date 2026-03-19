@@ -1,0 +1,127 @@
+/* Estilo general de la página */
+body {
+    background-color: #000;      /* negro */
+    color: #ffffff;              /* texto blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center
+}
+h1 {
+  border-bottom: 2px solid #333; /* Línea negra de 2px de grosor */
+  display: inline-block; /* Ajusta el ancho al contenido */
+  padding-bottom: 5px; /* Espacio entre el texto y la línea */
+}
+/* Cabecera con gradiente */
+header {
+    background: linear-gradient(90deg, #000000, #410111, #000000);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #111;
+    border-top: 2px solid #410111;
+    border-bottom: 2px solid #410111;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Cada apartado del menú */
+nav li {
+    border-right: 1px solid #333; /* línea separadora */
+}
+
+/* Quita la línea del último */
+nav li:last-child {
+    border-right: none;
+}
+
+/* Botones del menú */
+nav a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+nav a:hover {
+    background-color: #410111;
+    color: white;
+    transform: scale(1.05);
+}
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Secciones */
+section {
+    background-color: #111;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #410111;
+}
+
+/* Footer */
+footer {
+    background-color: #410111;
+    text-align: center;
+    padding: 10px;
+}
+/* Contenedor de cada trauma */
+.trauma {
+    text-align: center; /* centra todo dentro del div */
+    margin: 30px auto;
+}
+
+/* Todas las imágenes del mismo tamaño y centradas */
+.trauma img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Texto debajo de la imagen */
+.trauma p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #fff; /* si tu fondo es negro */
+}
+.trauma {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    max-width: 550px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efecto al pasar el ratón */
+.trauma:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(65,1,17,0.8);
+}
+h2 {
+    border-bottom: 3px solid #410111;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+a {
+color: #410111;
+}
